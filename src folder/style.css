@@ -1,0 +1,39 @@
+.nitsi{
+    display: flex;
+    /* align items horizontally */
+    align-items: center; 
+    /* verticall center inamge and text */
+    gap: 20px;
+    /* space between the inamge and text */
+    margin: 20px;
+    margin-left: 100px;
+}
+/* For styling the image */
+.nitsi img{
+width: 300px;
+height: 300px;
+border-radius: 50%;
+object-fit: cover;
+border: 10px ;
+margin-top: 80px;
+}
+
+.nitsi h1{
+    background-color: gray;
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+.cvbody p{
+    font-weight: lighter;
+}
+
+.cvbody h4{
+    color: blue;
+}
+
+.portfo{
+    display: flex;
+    gap: 40px;
+}
